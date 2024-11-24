@@ -31,6 +31,7 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 14px;
+    font-weight: 800;
 }
 .b_img img{
     height: 200px;
@@ -45,10 +46,6 @@ body{
 .content h3{
     font-size: 14px;
     font-weight: 500;
-}
-.tag h3{
-    font-size: 14px;
-    font-weight: 800;
 }
 .content h2{
     font-size: 24px;
@@ -74,4 +71,26 @@ body{
 
 .content h2:hover{
     color:#F4D04E;
+}
+@media ( max-width: 375px){
+    .container{
+        height: 453px;
+        width: 279px;
+        /* padding: 24px; */
+    }
+    .b_img img {
+        height: 200px;
+        width: 279px;
+    }
+    .tag{
+        height: 26px;
+        width: 73px;
+        font-size: 12px;
+    }
+    .content h3 p{
+        font-size: 12;
+    }
+    .content p{
+        font-size: 14px;
+    }
 }
