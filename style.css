@@ -31,6 +31,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 14px;
 }
 .b_img img{
     height: 200px;
@@ -41,10 +42,28 @@ body{
     height: 194px;
     width: 336px;
 }
+.content h3{
+    font-size: 14px;
+    font-weight: 500;
+}
+.tag h3{
+    font-size: 14px;
+    font-weight: 800;
+}
+.content h2{
+    font-size: 24px;
+    font-weight: 800;
+}
+.content p{
+    font-size: 16px;
+    color: #6B6B6B;
+}
 .author{
     height: 32px;
     width: 129px;
     display: flex;
+    font-size: 14px;
+    font-weight: 800;
 }
 .author img{
     height: 32px;
