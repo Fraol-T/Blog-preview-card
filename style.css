@@ -71,3 +71,7 @@ body{
     height: 32px;
     width: 32px;
 }
+
+.content h2:hover{
+    color:#F4D04E;
+}
