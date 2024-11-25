@@ -74,6 +74,7 @@ body{
 }
 @media ( max-width: 375px){
     .container{
+<<<<<<< HEAD
         height: 444px;
         width: 270px;
         /* padding: 24px; */
@@ -92,5 +93,40 @@ body{
     }
     .content p{
         font-size: 12px;
+=======
+        height: 355.5px;
+        width: 252px;
+        padding: 18px;
+    }
+    .tag{
+        height: 21.75px;
+        width: 61.5px;
+    }
+    /* .tag h3{
+        font-size: 10.5;
+    } */
+    .b_img img {
+        height: 150px;
+        width: 252px;
+    }
+    .content{
+        height: 145.5px;
+        width: 252px;
+        margin: 18px 0px 18px 0px;
+    }
+    .content h3{
+        font-size: 10.5;
+    }
+    .content p{
+        font-size: 12px;
+        width: 252px;
+    }
+    .content h2{
+        font-size: 18px;
+    }
+    .author{
+        height: 24px;
+        width: 24px;
+>>>>>>> responsive
     }
 }
